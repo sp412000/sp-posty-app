@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "start markdown posts app",
+      "type": "shell",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["server.js"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
